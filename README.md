@@ -17,4 +17,29 @@ It supports live messaging with a clean separation between backend and frontend.
 ---
 
 ## 🏗️ Project Structure
+Chat-fiesta/
+├── backend/
+│ ├── src/
+│ │ ├── clients.ts
+│ │ ├── router.ts
+│ │ ├── rooms.ts
+│ │ ├── server.ts
+│ │ ├── index.ts
+│ │ └── types.ts
+│ ├── dist/
+│ ├── package.json
+│ └── tsconfig.json
+│
+├── frontend/
+│ ├── src/
+│ │ ├── components/
+│ │ │ └── Chat.jsx
+│ │ ├── App.jsx
+│ │ ├── main.jsx
+│ │ └── index.css
+│ ├── public/
+│ ├── package.json
+│ └── vite.config.js
+│
+└── .gitignore
 
